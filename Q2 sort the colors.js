@@ -6,7 +6,7 @@ var sortColors = function(nums) {
     var n = nums.length;
     var index = 0;
     var left = 0;
-    var right = n - 1; // Corrected
+    var right = n - 1; 
 
     while (index <= right) {
         if (nums[index] === 0) {
